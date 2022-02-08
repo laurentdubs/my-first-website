@@ -1,0 +1,43 @@
+* {
+
+}
+
+body {
+    margin: 0 auto;
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+    
+}
+
+header.header img {
+    width: 120px;
+}
+
+section.top-page {
+    background: url('../images/film.jpg');
+    background-size:cover;
+    height: 1500vh;
+}
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color:darkgoldenrod;
+    width: 400px;
+    margin-left: 30px;
+}
+nav.nav li {
+    color: white;
+    font-size: 20px;
+}
+
+.big-title {
+    color:white;
+    font-size: 100px;
+    padding: 20px 50px;
+   
+}

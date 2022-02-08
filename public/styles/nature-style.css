@@ -1,0 +1,42 @@
+* {
+
+}
+
+body {
+    margin: 0 auto;
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+    
+}
+
+header.header img {
+    width: 150px;
+}
+
+section.top-page {
+    background: url('../images/plante.jpg');
+    background-size:contain;
+    height: 120vh;
+}
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: brown;
+    width: 400px;
+    margin-left: 30px;
+}
+nav.nav li {
+    color: white
+}
+
+.big-title {
+    color:rgb(3, 77, 31);
+    font-size: 70px;
+    padding: 20px 50px;
+   
+}
